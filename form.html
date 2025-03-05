@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册界面</title>
+</head>
+<body>
+<form action="/course/reg.do" method="post" enctype="multipart/form-data">
+    <p>昵称:<input type="text"/></p>
+    <p>密码:<input type="password"/></p>
+    <p>邮箱:<input type="text"/>
+        <select>
+            <option>qq.com</option>
+            <option>163.com</option>
+            <option>icloud.com</option>
+            <option>gmail.com</option>
+            <option>sina.com</option>
+        </select>
+    </p>
+    <p>个人简介：<textarea name="个人简介" id="" cols="30" rows="10"></textarea></p>
+    <p>上传个人照片:<input type="file" value="选择文件"/></p>
+    <hr>
+    <p><input type="submit" value="报名提交"/></p>
+</form>
+
+</body>
+</html>
