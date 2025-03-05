@@ -17,10 +17,22 @@
             <option>sina.com</option>
         </select>
     </p>
+    <p>性别：<input type="radio" name="组名" value="取值" checked/>男
+        <input type="radio" name="组名" value="取值" checked/>女
+    </p>
+    <p>爱好：<input type="checkbox" name="组名" value="取值" />旅游
+        <input type="checkbox" name="组名" value="取值" />摄影
+        <input type="checkbox" name="组名" value="取值" />运动
+    </p>
     <p>个人简介：<textarea name="个人简介" id="" cols="30" rows="10"></textarea></p>
-    <p>上传个人照片:<input type="file" value="选择文件"/></p>
+    <p>上传个人照片：<input id="file-upload" type="file" style="display: none;"></p>
+    <label for="file-upload" style="cursor: pointer; padding: 1px 2px; color: black; border-radius: 5px;">
+    点击选择文件文件
+    </label>
     <hr>
+    <div style="text-align:center;">
     <p><input type="submit" value="报名提交"/></p>
+    </div>
 </form>
 
 </body>
