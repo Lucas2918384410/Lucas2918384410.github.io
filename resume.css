@@ -1,0 +1,129 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.up{
+    display: flex;
+    flex-direction: column;
+}
+.up .top{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+}
+.up .top .name{
+    right: 114px;
+    color: #FDB438;
+    font-size: 100px;
+}
+.up .top .occupation{
+    font-size: 40px;
+}
+.up .down{
+    display: flex;
+}
+.up .down .left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.up .down .left .white{
+    background-color: white;
+    height: 349px;
+    width: 500px;
+}
+.up .down .left .black{
+    background-color: #1E1E1E;
+    height: 416px;
+}
+.up .down .left img{
+    z-index: 999;
+    width: 50%;
+    left: 114px;
+}
+.up .down .right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.up .down .right .white{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.up .down .right .white .title{
+    font-size: 40px;
+}
+.up .down .right .white .content{
+    font-size: 20px;
+}
+.up .down .right .black{
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1E1E;
+}
+.up .down .right .black .box_title{
+    font-size: 20px;
+    color: #FDB438;
+}
+.up .down .right .black .box{
+    font-size: 20px;
+    color: white;
+}
+.lower{
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1E1E;
+}
+.lower .up{
+    display: flex;
+}
+.lower .up .left{
+    font-size: 50px;
+    color: #FDB438;
+    width: 50%;
+}
+.lower .up .right{
+    color: white;
+    width: 50%;
+}
+.lower .middle{
+    display: flex;
+}
+.lower .middle .left{
+    font-size: 50px;
+    color: #FDB438;
+    width: 50%;
+}
+.lower .middle .right{
+    color: white;
+    width: 50%;
+}
+.lower .down{
+    display: flex;
+}
+.lower .down .left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.lower .down .left .title{
+    font-size: 50px;
+    color: #FDB438;
+}
+.lower .down .left .content{
+    color: white;
+}
+.lower .down .right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.lower .down .right .title{
+    font-size: 50px;
+    color: #FDB438;
+}
+

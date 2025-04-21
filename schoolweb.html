@@ -5,13 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        html,bady{
+        html,body{
             padding: 0;
             margin: 0;
-            display: flex;
-            flex-direction: column;
-        }
-        .body{
             display: flex;
             flex-direction: column;
             gap: 10px;
@@ -41,13 +37,13 @@
         .content{
             display: flex;
             background-color: aliceblue;
+            width: 100%;
             gap: 10px;
         }
         .title1{
-            background-color: rgb(222, 38, 87);
+            background-color: rgb(244, 9, 75);
             width: 100%;
             height: 50px;
-            margin: 0 auto;
             color: #fcfdfd;
             gap: 10px;
         }
@@ -56,10 +52,16 @@
             width: 100%;
             gap: 10px;
         }
+        .news1 > .left:hover{
+            background-color: rgb(0,60,40);
+            height: 180px;
+            width: 50%;
+        }
         .news1 > .left{
             display: flex;
             height: 180px;
             width: 100%;
+            transition: 1s;
             background-color: rgb(108, 83, 220);
             gap: 10px;
         }
@@ -99,6 +101,12 @@
             height: 180px;
             width: 100%;
             color: #0f0f0f;
+        }
+        .content > .name{
+            width: 50%;
+            height: 40;
+            background-color: #20f7fb;
+            margin: 0 auto;
         }
         .title2{
             display: flex;
@@ -297,6 +305,9 @@
         </div>
     </div>
     <div class="content">
+        <div class="name">更多</div>
+    </div>
+    <div class="content">
         <div class="title2">
             <div class="left">
                 <div class="name">新闻快讯</div>
@@ -367,7 +378,5 @@
     </div>
     <div class="bottom1">更多</div>
     <div class="bottom2">这是底部</div>
-
-
 </body>
 </html>

@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    background-image: url("宝宝的网页_复制.svg");
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 100%;
+}
+.first .top{
+    display: flex;
+    height: 38.27%;
+    width: 100%;
+    justify-content: center;
+}
+.first .top .name{
+    width: 100px;
+    font-size: xx-large;   
+}
+.first .top .art_name{
+    width: 100px;
+    font-size: x-large;   
+}
+.first .top .none{
+    width: 67.7%;
+}
+.first .top .littie_box{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
+.first .top .littie_box .box{
+    display: flex;
+    height: 90px;
+}
+.first > .top .littie_box .box .box1{
+    height: 10px;
+    width: 10px;
+    background-color: #1e1e1e;
+}
+.first > .top .littie_box .box2{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+}
+.first > .top .littie_box .box3{
+    height: 10px;
+    width: 10px;
+    background-color: #FDB438;
+}
+.first .middle{
+    height: 310px;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+}
+.first .bottom{
+    display: flex;
+    height: 90px;
+    width: 100%;
+    justify-content: center;
+}
+.first .catalogue{
+    display: flex;
+    width: 67.7%;
+    height: 90px;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #FDB438;
+}
+.first .catalogue .box{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 100%;
+}
+.first .catalogue .box .name1{
+    padding: 10px;
+}
+.first .catalogue .box .name3{
+    padding: 10px;
+}
+.first .catalogue .box .name5{
+    padding: 10px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: #FDB438;
+    height: 372px;
+    width: 100%;
+}
+.second .box1{
+    color: rgb(249, 185, 9);
+    box-shadow: 0px -15px 25px #575252;
+}
+
+.third{
+    height: 60px;
+    width: 100%;
+    background-color: #FDB438;
+}
