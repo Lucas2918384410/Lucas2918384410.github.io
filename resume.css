@@ -58,7 +58,6 @@ html,body{
     background-color: #1E1E1E;
     height: 416px;
 }
-
 .up .down .right{
     display: flex;
     flex-direction: column;
