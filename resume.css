@@ -11,15 +11,26 @@ html,body{
 .up .top{
     background-color: white;
     display: flex;
-    flex-direction: column;
+    
     height: 260px;
 }
-.up .top .name{
+.up .top .box_left{
+    display: flex;
+    height: 451px;
+    flex-direction: column;
+    width: 715px;
+}
+.up .top .box_right{
+    display: flex;
+    height: 451px;
+    width: 1205px;
+}
+.up .top .box_left .name{
     right: 114px;
     color: #FDB438;
     font-size: 100px;
 }
-.up .top .occupation{
+.up .top .box_left .occupation{
     font-size: 40px;
 }
 .up .down{
@@ -28,67 +39,80 @@ html,body{
 .up .down .left{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 715px;
 }
 .up .down .left .white{
+    display: flex;
     background-color: white;
     height: 349px;
-    width: 500px;
+    width: 715px;
+}
+.up .down .left .white img{
+    position: absolute;
+    left: 60px;
+    z-index: 999;
+    height: 765px;
+    width: 601px;
 }
 .up .down .left .black{
     background-color: #1E1E1E;
     height: 416px;
 }
-.up .down .left img{
-    z-index: 999;
-    width: 50%;
-    left: 114px;
-}
+
 .up .down .right{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    height: 765px;
+    width: 1205px;
 }
 .up .down .right .white{
     display: flex;
     flex-direction: column;
     background-color: white;
+    height: 349px;
+    width: 1205px;
 }
 .up .down .right .white .title{
-    font-size: 40px;
+    font-size: 80px;
 }
 .up .down .right .white .content{
-    font-size: 20px;
+    font-size: 35px;
 }
 .up .down .right .black{
     display: flex;
     flex-direction: column;
     background-color: #1E1E1E;
+    height: 416px;
 }
 .up .down .right .black .box_title{
-    font-size: 20px;
+    font-size: 35px;
     color: #FDB438;
+
 }
 .up .down .right .black .box{
-    font-size: 20px;
+    font-size: 30px;
     color: white;
 }
 .lower{
     display: flex;
     flex-direction: column;
     background-color: #1E1E1E;
+    height: 1600px;
+    width: 1920px;
 }
-.lower .up{
+.lower .up2{
     display: flex;
 }
-.lower .up .left{
+.lower .up2 .left{
     font-size: 50px;
     color: #FDB438;
-    width: 50%;
+    width: 300px;
+    height: 400px;
 }
-.lower .up .right{
+.lower .up2 .right{
     color: white;
-    width: 50%;
+    padding: 40px;
+    width: 100%;
 }
 .lower .middle{
     display: flex;
@@ -96,11 +120,13 @@ html,body{
 .lower .middle .left{
     font-size: 50px;
     color: #FDB438;
-    width: 50%;
+    width: 300px;
+    height: 400px;
 }
 .lower .middle .right{
     color: white;
-    width: 50%;
+    width: 100%;
+    padding: 40px;
 }
 .lower .down{
     display: flex;
@@ -116,14 +142,111 @@ html,body{
 }
 .lower .down .left .content{
     color: white;
+    font-size: 40px;
 }
 .lower .down .right{
     display: flex;
     flex-direction: column;
     width: 50%;
+    gap: 40px;
 }
 .lower .down .right .title{
     font-size: 50px;
     color: #FDB438;
 }
+.lower .down .right .content{
+    display: flex;
+}
+.lower .down .right .content .project{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.lower .down .right .content .project .box{
+    font-size: 50px;
+    width: 350px;
+    color: white;
+    
+}
+.lower .down .right .content .proficiency{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.lower .down .right .content .proficiency .box_python{
+    background-color: #797876;
+    height: 70px;
+    width: 610px;
+    display: flex;
+}
+.lower .down .right .content .proficiency .box_Javascript{
+    background-color: #797876;
+    height: 70px;
+    width: 610px;
+    display: flex;
+}
+.lower .down .right .content .proficiency .box_CSS{
+    display: flex;
+    background-color: #797876;
+    height: 70px;
+    width: 610px;
+}
+.lower .down .right .content .proficiency .box_HTML{
+    background-color: #797876;
+    height: 70px;
+    width: 610px;
+    display: flex;
+}
+.lower .down .right .content .proficiency .box_C{
+    background-color: #797876;
+    width: 610px;
+    height: 70px;
+    display: flex;
+}
+.lower .down .right .content .proficiency .box_R{
+    background-color: #797876;
+    height: 70px;
+    width: 610px;
+    display: flex;
+}
 
+.lower .down .right .content .proficiency .box_python .box_p{
+    background-color: #FDB438;
+    width: 80%;
+    height: 70px;
+    width: 610px;
+    display: flex;
+}
+.lower .down .right .content .proficiency .box_Javascript .box_p{
+    background-color: #FDB438;
+    width: 30%;
+    height: 70px;
+    display: flex;
+}
+.lower .down .right .content .proficiency .box_CSS .box_p{
+    background-color: #FDB438;
+    width: 60%;
+    height: 70px;
+}
+.lower .down .right .content .proficiency .box_HTML .box_p{
+    background-color: #FDB438;
+    height: 70px;
+    width: 60%;
+    display: flex;
+}
+.lower .down .right .content .proficiency .box_C .box_p{
+    background-color: #FDB438;
+    width: 50%;
+    height: 70px;
+    display: flex;
+}
+.lower .down .right .content .proficiency .box_R .box_p{
+    background-color: #FDB438;
+    width: 60%;
+    height: 70px;
+    width: 40%;
+    display: flex;
+}
+table{
+    font-size: 40px;
+}
